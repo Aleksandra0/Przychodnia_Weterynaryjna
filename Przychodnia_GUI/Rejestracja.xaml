@@ -1,0 +1,48 @@
+﻿<Window x:Class="Przychodnia_GUI.Rejestracja"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Przychodnia_GUI"
+        xmlns:System="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="Rejestracja" Height="450" Width="800">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Label Content="Podaj swoje dane osobwe" Grid.Row="0" Grid.ColumnSpan="4" FontSize="25" HorizontalAlignment="Center"/>
+        <Label Content="Imię" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="0" FontSize="15"/>
+        <TextBox x:Name="tbImie" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="1" Width="150" Height="30"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="0" FontSize="15"/>
+        <TextBox x:Name="tbNazwisko" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="1" Width="150" Height="30"/>
+        <Label Content="Data urodzenia" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="0"  FontSize="15"/>
+        <TextBox x:Name="tbData_urodzenia" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="1" Width="150" Height="30"/>
+        <Label Content="PESEL" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="2" FontSize="15"/>
+        <Label Content="Płeć" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="0" FontSize="15"/>
+        <ComboBox x:Name="cbPlec" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="1" Width="150" Height="27">
+            <System:String>kobieta</System:String>
+            <System:String>mężczyzna</System:String>
+            <System:String>inna</System:String>
+        </ComboBox>
+        <Label Content="Numer telefonu" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="2" FontSize="15"/>
+        <TextBox x:Name="tbNumer" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="3" Width="150" Height="30"/>
+        <Label Content="Email" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="2" FontSize="15"/>
+        <TextBox x:Name="tbEmail" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="3" Width="150" Height="30"/>
+        <Label Content="Adres" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="2" FontSize="15"/>
+        <TextBox x:Name="tbAdres" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="3" Width="150" Height="30"/>
+        <TextBox x:Name="tbPesel" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="3" Width="150" Height="30"/>
+        <Button x:Name="btZatwierdz" Content="Zatwierdź"  HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="5" Grid.ColumnSpan="4" Width="150" Height="30" FontSize="15" Click="btZatwierdz_Click"/>
+    </Grid>
+</Window>

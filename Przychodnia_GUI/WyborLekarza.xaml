@@ -1,0 +1,35 @@
+﻿<Window x:Class="Przychodnia_GUI.WyborLekarza"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Przychodnia_GUI"
+        mc:Ignorable="d"
+        Title="WyborLekarza" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Label Content="Wybierz lekarza do którego chcesz się umówić" Grid.Row="0" Grid.ColumnSpan="4" FontSize="25" HorizontalAlignment="Center"/>
+        <Label Content="Wybierz datę wizyty: " HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="1" FontSize="15"/>
+        <TextBox x:Name="tbDataw" HorizontalAlignment="Right" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="1" Width="150" Height="30"/>
+        <Label Content="Wybierz godzinę wizyty: " HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="3" FontSize="15"/>
+        <TextBox x:Name="tbGodzinaw" HorizontalAlignment="Right" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="3" Width="150" Height="30"/>
+        <Button x:Name="bt1"  Content="" Grid.Column="1" Background="White" Grid.Row="2" Click="bt1_click"/>
+        <Button x:Name="bt2" Content="" Grid.Column="3" Background="White" Grid.Row="2" Click="bt2_click"/>
+        <Button x:Name="bt3" Content="" Grid.Column="1" Background="White" Grid.Row="4" Click="bt3_click"/>
+        <Button x:Name="bt4" Content="" Grid.Column="3" Background="White" Grid.Row="4" Click="bt4_click"/>
+    </Grid>
+</Window>
