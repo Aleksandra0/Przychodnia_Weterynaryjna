@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Klient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Imie>Jan</Imie>
+  <Nazwisko>Kowalski</Nazwisko>
+  <Data_urodzenia>1989-06-09T00:00:00</Data_urodzenia>
+  <Pesel>00389674590</Pesel>
+  <Plec>M</Plec>
+  <Numer_telefonu>508974466</Numer_telefonu>
+  <Email>jk@gmail.com</Email>
+  <Adres>Basztowa 42, Kraków</Adres>
+  <Zwierzeta>
+    <Pacjent>
+      <Imie>Felicja</Imie>
+      <Data_urodzenia>2015-12-01T00:00:00</Data_urodzenia>
+      <Gatunek>kot</Gatunek>
+      <Rasa>dachowiec</Rasa>
+      <Barwa>czarna</Barwa>
+      <Znaki_szczegolne>duże oczy</Znaki_szczegolne>
+      <Id>1</Id>
+      <Przebyte_choroby />
+      <Szczepienia />
+      <Lekarz>
+        <Data_urodzenia>2021-01-22T00:00:00+01:00</Data_urodzenia>
+        <Plec>K</Plec>
+        <Staz_pracy>0</Staz_pracy>
+      </Lekarz>
+      <Wlasciciel>
+        <Data_urodzenia>2021-01-22T00:00:00+01:00</Data_urodzenia>
+        <Plec>K</Plec>
+        <Zwierzeta />
+      </Wlasciciel>
+    </Pacjent>
+  </Zwierzeta>
+</Klient>
