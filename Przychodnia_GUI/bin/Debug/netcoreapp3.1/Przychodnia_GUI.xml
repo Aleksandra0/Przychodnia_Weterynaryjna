@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Przychodnia_GUI</name>
+    </assembly>
+    <members>
+        <member name="T:Przychodnia_GUI.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Przychodnia_GUI.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.MainWindow.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:Przychodnia_GUI.MainWindow" /> class.</summary>
+        </member>
+        <member name="M:Przychodnia_GUI.MainWindow.btStart_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btStart control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Przychodnia_GUI.OknoKoncowe">
+            <summary>
+            Interaction logic for OknoKoncowe.xaml
+            </summary>
+            <summary>
+            OknoKoncowe
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.OknoKoncowe.#ctor(Projekt_Przychodnia_weterynaryjna.Lekarz,System.String,System.String,Projekt_Przychodnia_weterynaryjna.Klient)">
+            <summary>Initializes a new instance of the <see cref="T:Przychodnia_GUI.OknoKoncowe" /> class.</summary>
+            <param name="lekarz">The lekarz.</param>
+            <param name="data">The data.</param>
+            <param name="godzina">The godzina.</param>
+            <param name="klient">The klient.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.OknoKoncowe.btZakoncz_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btZakoncz control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.OknoKoncowe.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Przychodnia_GUI.Podsumowanie">
+            <summary>
+            Interaction logic for Podsumowanie.xaml
+            </summary>
+            <summary>
+            Podsumowanie
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.Podsumowanie.#ctor(Projekt_Przychodnia_weterynaryjna.Klient)">
+            <summary>Initializes a new instance of the <see cref="T:Przychodnia_GUI.Podsumowanie" /> class.</summary>
+            <param name="klient2">The klient2.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Podsumowanie.btWizyta_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btWizyta control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Podsumowanie.btPowrot_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btPowrot control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Podsumowanie.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Przychodnia_GUI.Rejestracja">
+            <summary>
+            Interaction logic for Rejestracja.xaml
+            </summary>
+            
+            <summary>
+            Rejestracja
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:Przychodnia_GUI.Rejestracja" /> class.</summary>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja.btZatwierdz_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btZatwierdz control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Przychodnia_GUI.Rejestracja_pacjent">
+            <summary>
+            Interaction logic for Rejestracja_pacjent.xaml
+            </summary>
+            <summary>
+            Rejestracja_pacjent
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja_pacjent.#ctor(Projekt_Przychodnia_weterynaryjna.Klient,System.Int32)">
+            <summary>Initializes a new instance of the <see cref="T:Przychodnia_GUI.Rejestracja_pacjent" /> class.</summary>
+            <param name="klient2">The klient2.</param>
+            <param name="id2">The id2.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja_pacjent.btUmow_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btUmow control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja_pacjent.btDodajKolejne_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the Click event of the btDodajKolejne control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.Rejestracja_pacjent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Przychodnia_GUI.WyborLekarza">
+            <summary>
+            Interaction logic for WyborLekarza.xaml
+            </summary>
+            <summary>
+            WyborLekarza
+            </summary>
+        </member>
+        <member name="M:Przychodnia_GUI.WyborLekarza.#ctor(Projekt_Przychodnia_weterynaryjna.Klient)">
+            <summary>Initializes a new instance of the <see cref="T:Przychodnia_GUI.WyborLekarza" /> class.</summary>
+            <param name="klient2">The klient2.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.WyborLekarza.bt1_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the click event of the bt1 control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.WyborLekarza.bt2_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the click event of the bt2 control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.WyborLekarza.bt3_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the click event of the bt3 control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.WyborLekarza.bt4_click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>Handles the click event of the bt4 control.</summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Przychodnia_GUI.WyborLekarza.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

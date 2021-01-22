@@ -1,0 +1,14 @@
+﻿<Window x:Class="Przychodnia_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Przychodnia_GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btStart" Content="Rozpocznij" Margin="348,283,348,95" Click="btStart_Click" FontSize="15"/>
+        <Label Content="SadCat" HorizontalAlignment="Center" Height="79" Margin="0,59,0,0" VerticalAlignment="Top" Width="346" FontSize="50" HorizontalContentAlignment="Center"/>
+        <Label Content="Przychodnia weterynaryjna - nie tylko dla kotów" HorizontalAlignment="Center" Height="56" Margin="0,138,0,0" VerticalAlignment="Top" Width="460"  FontSize="20" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
