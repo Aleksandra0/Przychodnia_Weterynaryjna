@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lekarz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Imie>Dawid</Imie>
+  <Nazwisko>Nowak</Nazwisko>
+  <Data_urodzenia>1986-12-09T00:00:00</Data_urodzenia>
+  <Pesel>00178956435</Pesel>
+  <Plec>M</Plec>
+  <Numer_telefonu>509678999</Numer_telefonu>
+  <Email>dn@interia.eu</Email>
+  <Specjalizacja>Koty</Specjalizacja>
+  <Tytuly>dr. weterynarz</Tytuly>
+  <Staz_pracy>8</Staz_pracy>
+</Lekarz>
